@@ -44,6 +44,8 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+ruby '2.0.0'
+
 group :development, :test do
   gem 'sqlite3', '1.3.7'
   gem 'rspec-rails', '2.13.1'
