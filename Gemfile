@@ -49,6 +49,7 @@ ruby '2.0.0'
 group :development, :test do
   gem 'sqlite3', '1.3.7'
   gem 'rspec-rails', '2.13.1'
+  gem 'hirb'
 end
 
 group :test do
@@ -64,3 +65,6 @@ end
 
 gem 'bootstrap-sass'
 gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
